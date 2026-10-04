@@ -6,6 +6,16 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		500A2B273071F54300B319ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000100000000;
+			remoteInfo = Chauffle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* Chauffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chauffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5074F223306EF9C50010DD9C /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +110,9 @@
 			);
 			buildRules = (
 			);
+			dependencies = (
+				500A2B283071F54300B319ED /* PBXTargetDependency */,
+			);
 			fileSystemSynchronizedGroups = (
 				5074F224306EF9C50010DD9C /* MyAppTests */,
 			);
@@ -171,6 +184,14 @@
 			);
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		500A2B283071F54300B319ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000100000000 /* Chauffle */;
+			targetProxy = 500A2B273071F54300B319ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		000000000000000011000000 /* Debug configuration for PBXProject "Chauffle" */ = {
